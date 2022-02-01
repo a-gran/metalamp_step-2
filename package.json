@@ -12,7 +12,14 @@
     "type": "git",
     "url": "https://github.com/a-gran/Metalamp_step-2.git"
   },
-  "keywords": "webpack sass html css javascript pug",
+  "keywords": [
+    "webpack",
+    "sass",
+    "html",
+    "css",
+    "javascript",
+    "pug"
+  ],
   "author": "Aristarh Gran <aristarhgran@gmail.com>",
   "devDependencies": {
     "@babel/core": "^7.16.12",
