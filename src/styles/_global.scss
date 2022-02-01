@@ -1,0 +1,44 @@
+$primaryColor: darkcyan;
+$secondaryColor: grey;
+
+html {
+  font-family: generalFont;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: headerFont;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  h1 {
+    color: $primaryColor;
+  }
+
+  h2 {
+    color: $secondaryColor;
+  }
+
+  p {
+    color: $secondaryColor;
+    font-weight: 700;
+  }
+}
+
+.pict {
+  display: block;
+  height: 200px;
+  background: url('../images/metiz.jpg');
+}
