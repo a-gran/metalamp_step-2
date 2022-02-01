@@ -1,44 +1,20 @@
 $primaryColor: darkcyan;
-$secondaryColor: grey;
+$secondaryColor: darkslategray;
 
 html {
   font-family: generalFont;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: headerFont;
+h1  {
+  color: $primaryColor;
 }
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-}
-
-.container {
-  h1 {
-    color: $primaryColor;
-  }
-
-  h2 {
+.container{
+  &__subtitle {
     color: $secondaryColor;
+    display: block;
+    height: 140px;
+    background: url("../images/webpack.png");
+    display: flex;
+    justify-content: center;
   }
-
-  p {
-    color: $secondaryColor;
-    font-weight: 700;
-  }
-}
-
-.pict {
-  display: block;
-  height: 200px;
-  background: url('../images/metiz.jpg');
 }
